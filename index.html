@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banerjee - Developer</title>
+    <link rel="icon" href="christmas.svg" type="image/svg+xml">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        :root {
+            --font-primary: 'Inter', sans-serif;
+            --font-heading: 'Poppins', sans-serif;
+            --color-background: #fffbf4;     /* Floral White */
+            --color-primary-text: #11120d;   /* Smoky Black  */
+            --color-secondary-text: #565449; /* Olive Drab   */
+            --color-accent: #d8cfbc;         /* Bone         */
+        }
+
+        ::selection {
+            color: var(--color-secondary-text);
+            background-color: var(--color-accent);
+        }
+
+        ::-moz-selection {
+            color: var(--color-secondary-text);
+            background-color: var(--color-accent);
+        }
+
+        body,
+        h1,
+        p,
+        a {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            font-weight: 400;
+            background-color: var(--color-background);
+            color: var(--color-primary-text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 0.8rem;
+        }
+
+        .container {
+            max-width: 550px;
+            padding: 20px;
+        }
+
+        .heading {
+            font-family: var(--font-heading);
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        p {
+            margin-top: 5px;
+        }
+
+        a {
+            color: var(--color-secondary-text);
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        ul {
+            margin: 7px 0px;
+        }
+
+        a:hover {
+            color: var(--color-accent);
+        }
+
+        .socials {
+            display: flex;
+            justify-content: left;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .socials a {
+            text-decoration: none;
+            color: var(--color-secondary-text);
+            font-weight: 600;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .socials a:hover {
+            color: var(--color-accent);
+            text-decoration: underline wavy;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <header style="font-size:x-large; color: #d8cfbc;">●○</header>
+        <div class="heading">sid's home on the internet...ain't my web design skills sick?</div>
+        <p>Hi, I’m Siddhanta Banerjee—a junior software engineer based in Kolkata, IN. Currently I'm at <a
+                href="https://www.rssoftware.com/">RS Software</a>, building
+            distributed systems that (hopefully) don’t break under pressure.</p>
+        <p>I like to think of myself as a “curious human,” which sounds better than “someone who clicks on every
+            Wikipedia link until it’s 3 AM.” My main sandbox is computers, distributed systems, AI, and
+            cryptography—but my curiosity isn’t exactly monogamous.</p>
+        <p>I also dabble in hacking (the legal kind, not the kind that lands you in orange jumpsuits), blockchain,
+            and sometimes tumble down rabbit holes into finance, history, psychology, or geopolitics. When I’m not
+            trying to figure out how the world works, you’ll find me:
+        <ul>
+            <li>strumming a guitar (badly)</li>
+            <li>playing chess (worse than badly)</li>
+            <li>or trying to not get punched in MMA (let's not talk about it)</li>
+            <li>watching F1 races and screaming at my screen as if it’ll make a difference </li>
+        </ul>
+        </p>
+        <p>Soon, this space will feature a blog where I ramble about whatever shiny thing has captured my attention
+            that week—AI models, geopolitics, why humans are weird, or something completely random. Basically, it’ll
+            be like a mental junk drawer you’re welcome to rummage through.</p>
+        <p>
+            Feel free to <a href="mailto:siddhantban02@gmail.com" class="highlight">get in touch</a>, check out some
+            of my <a href="#" class="highlight">work</a>, or just admire this sick website design and pretend you
+            weren’t here by accident.
+        </p>
+        <div class="socials">
+            <a href="https://github.com/0xSidBanerjee" target="_blank">Git</a>
+            <a href="https://x.com/sidstwt" target="_blank">X</a>
+        </div>
+    </div>
+</body>
+
+</html>
